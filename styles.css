@@ -1,0 +1,160 @@
+/*
+  Certification project "Tribute Page",
+  part of FreeCodeCamp's Responsive Web Design curriculum.
+  
+  Author: O.A.
+  Date: 2024-12-25 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+}
+
+header, section, footer {
+  background-color: gainsboro;
+  min-width: 500px;
+  max-width: 800px;
+
+  width: 50%;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+#img-div{
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+#img-caption, figcaption{
+  text-align: center;
+  font-style: italic;
+}
+
+#image {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 550px;
+}
+
+ul {
+  text-align: justify;
+}
+
+ul li strong{
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subsection {
+  margin-top: 50px;
+}
+
+.subsection:first-of-type{
+  margin-top: -18px;
+}
+
+.subsection-title {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-right: 20px;
+}
+
+li {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.gallery-inside{
+  background-color: white;
+  margin-top: 45px;
+  padding: 5px 15px 20px 15px;
+}
+
+#gallery-div {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery-div figure {
+  /*border: 5px solid green;*/ /*debug*/
+  margin: 15px auto;
+  padding: 5px;
+
+  height: 300px;
+  text-align: center;
+}
+
+#gallery-div img{
+  height: 90%;
+  width: auto;
+}
+
+#orphanage #gallery-div figure{
+  height: auto;
+  width: 100%;
+}
+
+#orphanage #gallery-div img{
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+#articles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.article {
+  margin: 5px auto;
+  max-width: 45%;
+  text-align: justify;
+}
+
+.sepia {
+  filter: sepia(20%);
+}
+
+.saturate {
+  filter: saturate(135%);
+}
+
+a {
+  color: brown;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+#about-author p{
+  margin-bottom: 0;
+}
